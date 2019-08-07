@@ -27,7 +27,11 @@ node{
     }     	
     stage ("ABK-Coverage"){
         withMaven(maven: 'KirshMaven'){
+<<<<<<< HEAD
                 sh 'cobertura'
+=======
+                sh 'cobertura:cobertura -Dcobertura.report.format=xml'
+>>>>>>> parent of b8f9abf... "Cobertura Format deleted"
         }
     }	
     stage ("ABK-Package"){
