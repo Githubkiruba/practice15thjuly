@@ -12,7 +12,7 @@ node{
     }
     stage ("ABK-Compile"){
 	withMaven(maven: 'KirshMaven'){
-                sh 'mvn compile '
+                sh 'mvn compile'
         }
     } 
     stage ("ABK-Review"){
@@ -20,7 +20,7 @@ node{
                 sh 'mvn pmd:pmd'
         }
     }
-     stage ("ABK-Test"){
+    stage ("ABK-Test"){
         withMaven(maven: 'KirshMaven'){
                 sh 'mvn test'
         }
