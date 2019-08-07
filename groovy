@@ -27,7 +27,7 @@ node{
     }     	
     stage ("ABK-Coverage"){
         withMaven(maven: 'KirshMaven'){
-                sh 'cobertura:cobertura -Dcobertura.report.format=xml'
+                sh 'cobertura:cobertura'
         }
     }	
     stage ("ABK-Package"){
