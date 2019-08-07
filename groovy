@@ -6,22 +6,23 @@ import groovy.json.JsonBuilder
 import groovy.json.JsonOutput
 import java.net.URL
 
-node('jenkins-slave1')
+node{
     stage('pull code'){
 	git 'https://github.com/Githubkiruba/DevOpsClassCodes.git'
     }
-    stage ("ABK-Compile){
+    stage ("ABK-Compile"){
 	withMaven(maven: 'KirshMaven'){
                 sh 'mvn compile '
         }
     } 
-    stage ("ABK-Review){
+    stage ("ABK-Review"){
         withMaven(maven: 'KirshMaven'){
                 sh 'mvn pmd:pmd'
         }
     }
-     stage ("ABK-Test){
+     stage ("ABK-Test"){
         withMaven(maven: 'KirshMaven'){
                 sh 'mvn test'
         }
-    }     		
+    }     	
+}	
