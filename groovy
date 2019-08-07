@@ -25,4 +25,14 @@ node{
                 sh 'mvn test'
         }
     }     	
-}	
+    stage ("ABK-Coverage"){
+        withMaven(maven: 'KirshMaven'){
+                sh 'cobertura:cobertura -Dcobertura.report.format=xml'
+        }
+    }	
+    stage ("ABK-Package"){
+        withMaven(maven: 'KirshMaven'){
+                sh 'package'
+        }
+    }
+}
