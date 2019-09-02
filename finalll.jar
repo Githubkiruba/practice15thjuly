@@ -1,0 +1,36 @@
+package seleniumtest;
+import static org.testing.Assert.assertEquals;
+import java.util.comcurrent.TimeUnit;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.annotations.Test;
+import org.openqa.selenium.chrome.ChromeOptions;
+
+public class testselenium 
+{
+	@Test
+	
+	public static void main(String[] args) {
+		
+		System.setProperty("webdriver.chrome.driver", "/home/edureka/chromedriver");
+		chromeOptions chromeOptions = new chromeOptions();
+		chromeOptions.addArguments("--headleass");
+		chromeOptions.addArguments("--no-sandbox");
+		WebDriver driver = new ChromeDriver(chromeOptions);
+		chromeOptions.addArguments("--headleass");
+		
+		driver.get("http:192.168.56.101:8081");
+		
+		driver.manage().timeouts().implicitlywait(3, TimeUnit.SECONDS);
+		driver.findElement(By.id("About US")).click();
+		
+		String test = driver.findElement(By.id("PID-ab2-pg")).getText();
+		assertEquals(test, "This is about page. ");
+		System.out.println("Test Succeeded!!");
+		driver.quit();
+				
+	}
+	
+}

@@ -1,0 +1,14 @@
+#!/usr/bin/env groovy
+import hudson.model.*
+import hudson.EnvVars
+import groovy.json.JsonSlurperClassic
+import groovy.json.JsonBuilder
+import groovy.json.JsonOutput
+import java.net.URL
+
+node{
+    stage('Install Ansible'){
+	sh label: '', script: '''sudo apt-get update
+        sudo apt-get install -y ansible'''
+    }
+
