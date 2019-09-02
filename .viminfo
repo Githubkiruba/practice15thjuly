@@ -26,14 +26,25 @@
 # Registers:
 
 # File marks:
-'0  1  1  ~/finalll.jar
-'1  43  0  ~/certproj/ansplaybook.yaml
-'2  1  0  ~/.ssh/id_rsa
-'3  1  0  ~/.ssh/id_rsa.pub
-'4  1  0  /.ssh
-'5  14  0  ~/certproj/insansgroovy
+'0  2  0  ~/site.pp
+'1  4  0  ~/init.pp
+'2  32  0  ~/Install.pp
+'3  1  2  ~/dockerfile
+'4  1  1  ~/finalll.jar
+'5  43  0  ~/certproj/ansplaybook.yaml
+'6  1  0  ~/.ssh/id_rsa
+'7  1  0  ~/.ssh/id_rsa.pub
+'8  1  0  /.ssh
+'9  14  0  ~/certproj/insansgroovy
 
 # Jumplist (newest first):
+-'  2  0  ~/site.pp
+-'  1  0  ~/site.pp
+-'  4  0  ~/init.pp
+-'  1  0  ~/init.pp
+-'  32  0  ~/Install.pp
+-'  1  2  ~/dockerfile
+-'  6  0  ~/dockerfile
 -'  1  1  ~/finalll.jar
 -'  43  0  ~/certproj/ansplaybook.yaml
 -'  1  0  ~/certproj/ansplaybook.yaml
@@ -126,13 +137,34 @@
 -'  14  0  ~/certproj/insansgroovy
 -'  1  0  ~/certproj/insansgroovy
 -'  14  0  ~/certproj/insansgroovy
--'  1  0  ~/certproj/insansgroovy
--'  1  0  ~/.ssh/id_rsa
--'  1  0  ~/.ssh/id_rsa.pub
--'  1  0  /.ssh
--'  43  0  ~/certproj/ansplaybook.yaml
 
 # History of marks within files (newest to oldest):
+
+> ~/site.pp
+	"	2	0
+	^	2	0
+	.	1	17
+	+	1	17
+
+> ~/init.pp
+	"	4	0
+	^	4	0
+	.	1	1
+	+	3	1
+	+	1	1
+
+> ~/Install.pp
+	"	32	0
+	^	32	0
+	.	30	1
+	+	30	1
+
+> ~/dockerfile
+	"	1	2
+	^	1	3
+	.	1	2
+	+	4	27
+	+	1	2
 
 > ~/finalll.jar
 	"	1	1
