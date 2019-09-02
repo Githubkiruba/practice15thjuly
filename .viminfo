@@ -12,6 +12,7 @@
 
 # Command Line History (newest to oldest):
 :wq!
+:WQ!
 :q!
 
 # Search String History (newest to oldest):
@@ -26,18 +27,20 @@
 # Registers:
 
 # File marks:
-'0  2  0  ~/site.pp
-'1  4  0  ~/init.pp
-'2  32  0  ~/Install.pp
-'3  1  2  ~/dockerfile
-'4  1  1  ~/finalll.jar
-'5  43  0  ~/certproj/ansplaybook.yaml
-'6  1  0  ~/.ssh/id_rsa
-'7  1  0  ~/.ssh/id_rsa.pub
-'8  1  0  /.ssh
-'9  14  0  ~/certproj/insansgroovy
+'0  5  0  ~/Dockerfile
+'1  1  0  ~/.ssh/id_rsa.pub
+'2  2  0  ~/site.pp
+'3  4  0  ~/init.pp
+'4  32  0  ~/Install.pp
+'5  1  2  ~/dockerfile
+'6  1  1  ~/finalll.jar
+'7  43  0  ~/certproj/ansplaybook.yaml
+'8  1  0  ~/.ssh/id_rsa
+'9  1  0  /.ssh
 
 # Jumplist (newest first):
+-'  5  0  ~/Dockerfile
+-'  1  0  ~/.ssh/id_rsa.pub
 -'  2  0  ~/site.pp
 -'  1  0  ~/site.pp
 -'  4  0  ~/init.pp
@@ -49,7 +52,6 @@
 -'  43  0  ~/certproj/ansplaybook.yaml
 -'  1  0  ~/certproj/ansplaybook.yaml
 -'  1  0  ~/.ssh/id_rsa
--'  1  0  ~/.ssh/id_rsa.pub
 -'  1  0  /.ssh
 -'  14  0  ~/certproj/insansgroovy
 -'  1  0  ~/certproj/insansgroovy
@@ -60,7 +62,6 @@
 -'  1  0  ~/certproj/insansgroovy
 -'  14  0  ~/certproj/insansgroovy
 -'  1  0  ~/certproj/insansgroovy
--'  1  0  ~/.ssh/id_rsa.pub
 -'  1  0  /.ssh
 -'  14  0  ~/certproj/insansgroovy
 -'  1  0  ~/certproj/insansgroovy
@@ -71,7 +72,6 @@
 -'  1  0  ~/certproj/insansgroovy
 -'  14  0  ~/certproj/insansgroovy
 -'  1  0  ~/certproj/insansgroovy
--'  1  0  ~/.ssh/id_rsa.pub
 -'  1  0  /.ssh
 -'  14  0  ~/certproj/insansgroovy
 -'  1  0  ~/certproj/insansgroovy
@@ -82,7 +82,6 @@
 -'  1  0  ~/certproj/insansgroovy
 -'  14  0  ~/certproj/insansgroovy
 -'  1  0  ~/certproj/insansgroovy
--'  1  0  ~/.ssh/id_rsa.pub
 -'  1  0  /.ssh
 -'  14  0  ~/certproj/insansgroovy
 -'  1  0  ~/certproj/insansgroovy
@@ -94,51 +93,62 @@
 -'  14  0  ~/certproj/insansgroovy
 -'  1  0  ~/certproj/insansgroovy
 -'  1  0  ~/.ssh/id_rsa
+-'  1  0  /.ssh
+-'  14  0  ~/certproj/insansgroovy
+-'  1  0  ~/certproj/insansgroovy
+-'  14  0  ~/certproj/insansgroovy
+-'  1  0  ~/certproj/insansgroovy
+-'  1  0  /.ssh
+-'  14  0  ~/certproj/insansgroovy
+-'  1  0  ~/certproj/insansgroovy
+-'  14  0  ~/certproj/insansgroovy
+-'  1  0  ~/certproj/insansgroovy
+-'  1  0  /.ssh
+-'  14  0  ~/certproj/insansgroovy
+-'  1  0  ~/certproj/insansgroovy
+-'  14  0  ~/certproj/insansgroovy
+-'  1  0  ~/certproj/insansgroovy
+-'  1  0  /.ssh
+-'  14  0  ~/certproj/insansgroovy
+-'  1  0  ~/certproj/insansgroovy
+-'  14  0  ~/certproj/insansgroovy
+-'  1  0  ~/certproj/insansgroovy
+-'  1  0  /.ssh
+-'  14  0  ~/certproj/insansgroovy
+-'  1  0  ~/certproj/insansgroovy
+-'  14  0  ~/certproj/insansgroovy
+-'  1  0  ~/certproj/insansgroovy
+-'  1  0  /.ssh
+-'  14  0  ~/certproj/insansgroovy
+-'  1  0  ~/certproj/insansgroovy
+-'  14  0  ~/certproj/insansgroovy
+-'  1  0  ~/certproj/insansgroovy
+-'  1  0  /.ssh
+-'  14  0  ~/certproj/insansgroovy
+-'  1  0  ~/certproj/insansgroovy
+-'  14  0  ~/certproj/insansgroovy
+-'  1  0  ~/certproj/insansgroovy
+-'  1  0  /.ssh
+-'  14  0  ~/certproj/insansgroovy
 -'  1  0  ~/.ssh/id_rsa.pub
--'  1  0  /.ssh
--'  14  0  ~/certproj/insansgroovy
--'  1  0  ~/certproj/insansgroovy
--'  14  0  ~/certproj/insansgroovy
--'  1  0  ~/certproj/insansgroovy
--'  1  0  /.ssh
--'  14  0  ~/certproj/insansgroovy
--'  1  0  ~/certproj/insansgroovy
--'  14  0  ~/certproj/insansgroovy
--'  1  0  ~/certproj/insansgroovy
--'  1  0  ~/.ssh/id_rsa.pub
--'  1  0  /.ssh
--'  14  0  ~/certproj/insansgroovy
--'  1  0  ~/certproj/insansgroovy
--'  14  0  ~/certproj/insansgroovy
--'  1  0  ~/certproj/insansgroovy
--'  1  0  /.ssh
--'  14  0  ~/certproj/insansgroovy
--'  1  0  ~/certproj/insansgroovy
--'  14  0  ~/certproj/insansgroovy
--'  1  0  ~/certproj/insansgroovy
--'  1  0  ~/.ssh/id_rsa.pub
--'  1  0  /.ssh
--'  14  0  ~/certproj/insansgroovy
--'  1  0  ~/certproj/insansgroovy
--'  14  0  ~/certproj/insansgroovy
--'  1  0  ~/certproj/insansgroovy
--'  1  0  /.ssh
--'  14  0  ~/certproj/insansgroovy
--'  1  0  ~/certproj/insansgroovy
--'  14  0  ~/certproj/insansgroovy
--'  1  0  ~/certproj/insansgroovy
--'  1  0  ~/.ssh/id_rsa.pub
--'  1  0  /.ssh
--'  14  0  ~/certproj/insansgroovy
--'  1  0  ~/certproj/insansgroovy
--'  14  0  ~/certproj/insansgroovy
--'  1  0  ~/certproj/insansgroovy
--'  1  0  /.ssh
--'  14  0  ~/certproj/insansgroovy
--'  1  0  ~/certproj/insansgroovy
--'  14  0  ~/certproj/insansgroovy
+-'  2  0  ~/site.pp
+-'  1  0  ~/site.pp
+-'  4  0  ~/init.pp
+-'  1  0  ~/init.pp
+-'  32  0  ~/Install.pp
+-'  1  2  ~/dockerfile
 
 # History of marks within files (newest to oldest):
+
+> ~/Dockerfile
+	"	5	0
+	^	4	5
+	.	1	2
+	+	4	0
+	+	1	2
+
+> ~/.ssh/id_rsa.pub
+	"	1	0
 
 > ~/site.pp
 	"	2	0
@@ -185,9 +195,6 @@
 	+	42	22
 
 > ~/.ssh/id_rsa
-	"	1	0
-
-> ~/.ssh/id_rsa.pub
 	"	1	0
 
 > /.ssh
