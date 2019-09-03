@@ -27,12 +27,12 @@
 
 # Registers:
 ""-	CHAR	0
-	t
+	 
 
 # File marks:
-'0  3  1  ~/Dockerfile
-'1  2  49  ~/Dockerfile
-'2  5  0  ~/Dockerfile
+'0  5  0  ~/Dockerfile
+'1  3  1  ~/Dockerfile
+'2  2  49  ~/Dockerfile
 '3  28  0  ~/ansplaybook.yaml
 '4  46  0  /etc/ansible/hosts
 '5  3  0  /etc/puppet/manifests/site.pp
@@ -42,10 +42,10 @@
 '9  2  0  ~/site.pp
 
 # Jumplist (newest first):
--'  3  1  ~/Dockerfile
--'  1  0  ~/Dockerfile
--'  2  49  ~/Dockerfile
 -'  5  0  ~/Dockerfile
+-'  1  0  ~/Dockerfile
+-'  3  1  ~/Dockerfile
+-'  2  49  ~/Dockerfile
 -'  28  0  ~/ansplaybook.yaml
 -'  1  0  ~/ansplaybook.yaml
 -'  46  0  /etc/ansible/hosts
@@ -143,15 +143,17 @@
 # History of marks within files (newest to oldest):
 
 > ~/Dockerfile
-	"	3	1
-	^	3	2
-	.	3	1
+	"	5	0
+	^	5	0
+	.	1	20
 	+	4	0
 	+	1	10
 	+	2	4
 	+	5	0
 	+	2	4
-	+	3	1
+	+	3	0
+	+	2	14
+	+	1	20
 
 > ~/ansplaybook.yaml
 	"	28	0
