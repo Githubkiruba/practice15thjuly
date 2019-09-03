@@ -159,3 +159,89 @@ apt-get install puppet
 which puppet
 cd /usr/bin/puppet module generate pup-docker
 cd ~/usr/bin/puppet module generate pup-docker
+pwd
+vim finalll.jar
+git push origin master
+git merge origin master
+git merge https://github.com/Githubkiruba/practice15thjuly.git
+git clone https://github.com/Githubkiruba/practice15thjuly.git
+git push origin master
+git pull origin master
+git push origin master
+git init finalll.jar
+git init .
+git add .
+git commit .
+git push origin master
+visudo 
+clear
+pwd
+ls
+vim dockerfile
+vim Install.pp
+cat Install.pp 
+clear
+ped
+pwd
+ls
+vim init.pp
+vim site.pp
+git init .
+git add .
+git commit .
+git push origin master
+clear
+jenkins
+which jenkins
+sudo apt-get update 
+wget -q -O - https://pkg.jenkins.io/debian/jenkins-ci.org.key | sudo apt-key add -
+sudo sh -c 'echo deb http://pkg.jenkins.io/debian-stable binary/ > /etc/apt/sources.list.d/jenkins.list'
+sudo apt-get update
+sudo apt-get install jenkins
+jenkins
+which jenkins
+cat /var/lib/jenkins/secrets/initialAdminPassword
+clear
+cd .ssh
+ls
+cat id_rsa
+cat id_rsa.pub
+vim id_rsa.pub
+ssh root@10.160.0.21
+cd ..
+ls
+cat dockerfile 
+vim Dockerfile
+git add .
+git commit
+git push origin master
+clear
+cd /home
+ls
+cd kiruba051190/
+ls
+ls -ll
+ls -al
+cd ..
+ls
+cd ubuntu/
+ls
+cd ..
+cd gke-6c29ecc37070f4b6ff16/
+ls
+ls -as
+ls -al
+cd ..
+cd ..
+cd /home/kiruba051190/Documents
+clear
+ls
+cd root
+ls
+cat ansplaybook.yaml 
+clear
+cat ansplaybook.yaml 
+clear
+clear
+cat ansplaybook.yaml 
+exit

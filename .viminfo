@@ -25,20 +25,27 @@
 # Input Line History (newest to oldest):
 
 # Registers:
+""-	CHAR	0
+	 
 
 # File marks:
-'0  5  0  ~/Dockerfile
-'1  1  0  ~/.ssh/id_rsa.pub
-'2  2  0  ~/site.pp
-'3  4  0  ~/init.pp
-'4  32  0  ~/Install.pp
-'5  1  2  ~/dockerfile
-'6  1  1  ~/finalll.jar
-'7  43  0  ~/certproj/ansplaybook.yaml
-'8  1  0  ~/.ssh/id_rsa
-'9  1  0  /.ssh
+'0  3  0  /etc/puppet/manifests/site.pp
+'1  1  0  /home/kiruba051190/Documents/modules/kir-docker/manifests/Install.pp
+'2  41  0  /home/kiruba051190/Documents/modules/kir-docker/manifests/init.pp
+'3  5  0  ~/Dockerfile
+'4  1  0  ~/.ssh/id_rsa.pub
+'5  2  0  ~/site.pp
+'6  4  0  ~/init.pp
+'7  32  0  ~/Install.pp
+'8  1  2  ~/dockerfile
+'9  1  1  ~/finalll.jar
 
 # Jumplist (newest first):
+-'  3  0  /etc/puppet/manifests/site.pp
+-'  1  0  /etc/puppet/manifests/site.pp
+-'  1  0  /home/kiruba051190/Documents/modules/kir-docker/manifests/Install.pp
+-'  41  0  /home/kiruba051190/Documents/modules/kir-docker/manifests/init.pp
+-'  1  0  /home/kiruba051190/Documents/modules/kir-docker/manifests/init.pp
 -'  5  0  ~/Dockerfile
 -'  1  0  ~/.ssh/id_rsa.pub
 -'  2  0  ~/site.pp
@@ -133,12 +140,27 @@
 -'  1  0  ~/.ssh/id_rsa.pub
 -'  2  0  ~/site.pp
 -'  1  0  ~/site.pp
--'  4  0  ~/init.pp
--'  1  0  ~/init.pp
--'  32  0  ~/Install.pp
--'  1  2  ~/dockerfile
 
 # History of marks within files (newest to oldest):
+
+> /etc/puppet/manifests/site.pp
+	"	3	0
+	^	3	0
+	.	2	17
+	+	2	17
+
+> /home/kiruba051190/Documents/modules/kir-docker/manifests/Install.pp
+	"	1	0
+	^	1	4
+	.	1	0
+	+	30	1
+	+	1	0
+
+> /home/kiruba051190/Documents/modules/kir-docker/manifests/init.pp
+	"	41	0
+	^	41	1
+	.	39	32
+	+	39	32
 
 > ~/Dockerfile
 	"	5	0
