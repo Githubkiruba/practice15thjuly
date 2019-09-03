@@ -245,3 +245,160 @@ clear
 clear
 cat ansplaybook.yaml 
 exit
+ansible-playbook ansplaybook.yaml 
+vim ansplaybook.yaml 
+ansible-playbook ansplaybook.yaml 
+vim ansplaybook.yaml 
+ansible-playbook ansplaybook.yaml 
+vim ansplaybook.yaml 
+ansible-playbook ansplaybook.yaml 
+vim ansplaybook.yaml 
+ansible-playbook ansplaybook.yaml 
+vim ansplaybook.yaml 
+ansible-playbook ansplaybook.yaml 
+docker
+sudo apt-get update
+sudo apt-get install     apt-transport-https     ca-certificates     curl     gnupg-agent     software-properties-common
+curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
+ sudo add-apt-repository    "deb [arch=amd64] https://download.docker.com/linux/ubuntu \
+   $(lsb_release -cs) \
+   stable"
+sudo apt-get update
+sudo apt-get install docker-ce
+apt-get update
+git ad ..
+git add .
+git commit
+git push origin master
+cat /var/lib/jenkins/secrets/initialAdminPassword
+visudo 
+apt-get update
+cat ansplaybook.yaml 
+cd /etc/ansible/
+ls
+vim hosts
+cd ..
+cd ..
+ansible-playbook ansplaybook.yaml
+pwd
+sudo su -
+ls
+cd /home/kiruba051190/
+mkdir /Documents/modules
+mkdir Documents
+ls
+cd Documents/
+mkdir modules
+ls
+cd modules
+/opt/puppetlabs/bin/puppet module generate kir-docker
+which puppet
+/usr/bin/puppet generate module kir-docker
+puppet help
+puppet module generate kir-docker
+ls
+cd kir-docker/
+ls
+cd manifests/
+ls
+vim Install.pp
+ls
+vim init.pp 
+cd ..
+cd ..
+cd ..
+puppet module build docker
+puppet module build kir-docker
+cd modules/
+puppet module build docker
+puppet help module b
+cd ..
+puppet module build docker::install
+cat init.pp
+ls
+cd modules/
+ls
+cd kir-docker/
+puppet module build docker
+ls
+cd manifests/
+ls
+cat init.pp
+vim Install.pp 
+cd ..
+cd ..
+cd ..
+cd ..
+puppet build module docker
+puppet module build docker
+cd Documents/
+puppet module build docker
+/usr/bin/puppet module build docker
+/opt/puppetlabs/bin/puppet module build docker
+puppet --version
+puppet module list
+mv kir-docker/ docker/
+ls
+cd modules/
+mv kir-docker/ docker/
+ls
+cd ..
+puppet module build docker
+puppet module apply docker
+puppet module build docker
+puppet help module build
+pupet module build
+puppet module build
+cd modules/
+puppet module build docker
+puppet module install /home/kiruba051190/Documents/modules/docker/pkg/kir-docker-0.1.0.tar.gz
+cd /etc/
+ls
+cd puppet/
+ls
+cd manifests/
+ls
+vim site.pp
+git init .
+git add .
+git commit .
+git push origin master
+cd ..
+cd ..
+sudo su -
+pwd
+cd /home
+cd kiruba051190/
+cd ..
+sudo su -
+puppet
+which pupet
+which puppet
+cd /usr
+ls
+pwd
+cd bin
+ls
+cd ..
+cd ..
+clear
+sudo /opt/puppetlabs/bin/puppet cert sign --all
+cd /opt
+ls
+ls -al
+cd ..
+pwd
+cd root
+cd ..
+sudo su -
+pwd
+cd /home
+pwd
+ls
+cd kiruba051190/
+ls
+ls -al
+cd ..
+cd gke-6c29ecc37070f4b6ff16/
+ls
+sudo su -

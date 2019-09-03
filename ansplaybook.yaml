@@ -12,16 +12,6 @@
     apt: 
      update_cache: true
 
-  - name: Install jdk
-    package:
-     name: degault-jdk
-     stae: present
-
-  - name: copy chromedriver
-    copy:
-     src: /home/edureka/chromedriver
-     dest: /home/edureka/
-
   - name: Install chromium browser
     package: 
      name: chromium-browser
@@ -31,11 +21,6 @@
     package:
      name: chromium-chromedriver
      state: present
-
-  - name: copy agent.jar file
-    copy:
-     src: /home/edureka/downloads/agent.jar
-     dest: /home/edureka
 
   - name: Run update
     apt: 

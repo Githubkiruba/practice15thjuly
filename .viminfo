@@ -8,7 +8,7 @@
 # hlsearch on (H) or off (h):
 ~h
 # Last Search Pattern:
-~MSle0~/usr
+~Msle0~/\<RUN\>
 
 # Command Line History (newest to oldest):
 :wq!
@@ -16,6 +16,7 @@
 :q!
 
 # Search String History (newest to oldest):
+? \<RUN\>
 ?/usr/bin/env groovy
 
 # Expression History (newest to oldest):
@@ -26,27 +27,34 @@
 
 # Registers:
 ""-	CHAR	0
-	 
+	t
 
 # File marks:
-'0  3  0  /etc/puppet/manifests/site.pp
-'1  1  0  /home/kiruba051190/Documents/modules/kir-docker/manifests/Install.pp
-'2  41  0  /home/kiruba051190/Documents/modules/kir-docker/manifests/init.pp
-'3  5  0  ~/Dockerfile
-'4  1  0  ~/.ssh/id_rsa.pub
-'5  2  0  ~/site.pp
-'6  4  0  ~/init.pp
-'7  32  0  ~/Install.pp
-'8  1  2  ~/dockerfile
-'9  1  1  ~/finalll.jar
+'0  3  1  ~/Dockerfile
+'1  2  49  ~/Dockerfile
+'2  5  0  ~/Dockerfile
+'3  28  0  ~/ansplaybook.yaml
+'4  46  0  /etc/ansible/hosts
+'5  3  0  /etc/puppet/manifests/site.pp
+'6  1  0  /home/kiruba051190/Documents/modules/kir-docker/manifests/Install.pp
+'7  41  0  /home/kiruba051190/Documents/modules/kir-docker/manifests/init.pp
+'8  1  0  ~/.ssh/id_rsa.pub
+'9  2  0  ~/site.pp
 
 # Jumplist (newest first):
+-'  3  1  ~/Dockerfile
+-'  1  0  ~/Dockerfile
+-'  2  49  ~/Dockerfile
+-'  5  0  ~/Dockerfile
+-'  28  0  ~/ansplaybook.yaml
+-'  1  0  ~/ansplaybook.yaml
+-'  46  0  /etc/ansible/hosts
+-'  1  0  /etc/ansible/hosts
 -'  3  0  /etc/puppet/manifests/site.pp
 -'  1  0  /etc/puppet/manifests/site.pp
 -'  1  0  /home/kiruba051190/Documents/modules/kir-docker/manifests/Install.pp
 -'  41  0  /home/kiruba051190/Documents/modules/kir-docker/manifests/init.pp
 -'  1  0  /home/kiruba051190/Documents/modules/kir-docker/manifests/init.pp
--'  5  0  ~/Dockerfile
 -'  1  0  ~/.ssh/id_rsa.pub
 -'  2  0  ~/site.pp
 -'  1  0  ~/site.pp
@@ -131,17 +139,37 @@
 -'  14  0  ~/certproj/insansgroovy
 -'  1  0  ~/certproj/insansgroovy
 -'  1  0  /.ssh
--'  14  0  ~/certproj/insansgroovy
--'  1  0  ~/certproj/insansgroovy
--'  14  0  ~/certproj/insansgroovy
--'  1  0  ~/certproj/insansgroovy
--'  1  0  /.ssh
--'  14  0  ~/certproj/insansgroovy
--'  1  0  ~/.ssh/id_rsa.pub
--'  2  0  ~/site.pp
--'  1  0  ~/site.pp
 
 # History of marks within files (newest to oldest):
+
+> ~/Dockerfile
+	"	3	1
+	^	3	2
+	.	3	1
+	+	4	0
+	+	1	10
+	+	2	4
+	+	5	0
+	+	2	4
+	+	3	1
+
+> ~/ansplaybook.yaml
+	"	28	0
+	^	28	0
+	.	26	0
+	+	15	11
+	+	15	0
+	+	15	19
+	+	1	0
+	+	15	0
+	+	16	0
+	+	26	0
+
+> /etc/ansible/hosts
+	"	46	0
+	^	46	0
+	.	45	11
+	+	45	11
 
 > /etc/puppet/manifests/site.pp
 	"	3	0
@@ -161,13 +189,6 @@
 	^	41	1
 	.	39	32
 	+	39	32
-
-> ~/Dockerfile
-	"	5	0
-	^	4	5
-	.	1	2
-	+	4	0
-	+	1	2
 
 > ~/.ssh/id_rsa.pub
 	"	1	0
